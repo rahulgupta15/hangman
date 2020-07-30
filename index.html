@@ -6,16 +6,13 @@
     <title>Hangman</title>
     <script defer src="main.js"></script>
     <link rel="stylesheet" href="styles.css" />
+    <link rel="shortcut icon" href="#">
   </head>
   <body>
-    <h2>Hangman</h2>
-    <h2>Click a letter to start guessing!</h2>
-    <div id="start">
-      <button>Start Game!</button>
-    </div>
+    <header>Hangman</header>
     <h1></h1>
     <section id="gallows"></section>
-    <h2 id="guess"></h2>
+    <h3 id="guess"></h3>
     <section id="letters">
       <button id="a" class="alpha">A</button>
       <button id="b" class="alpha">B</button>
@@ -45,7 +42,13 @@
       <button id="z" class="alpha">Z</button>
     </section>
     <div id="reset">
-      <button>Restart Game!</button>
+      <button onclick="window.location.reload()">Restart Game!</button>
     </div>
+    <footer>
+      <audio 
+          autoplay
+          src="pinacolada.mp3">
+      </audio>
+  </footer>
   </body>
 </html>
