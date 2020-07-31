@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Hangman</title>
-    <script defer src="main.js"></script>
-    <link rel="stylesheet" href="styles.css" />
+    <script defer src="/js/main.js"></script>
+    <link rel="stylesheet" href="/css/styles.css" />
     <link rel="shortcut icon" href="#">
   </head>
   <body>
@@ -41,14 +41,10 @@
       <button id="y" class="alpha">Y</button>
       <button id="z" class="alpha">Z</button>
     </section>
-    <div id="reset">
-      <button onclick="window.location.reload()">Restart Game!</button>
-    </div>
-    <footer>
-      <audio 
+      <button id="reset" onclick="window.location.reload()">Restart Game!</button>
+    <audio 
           autoplay
-          src="pinacolada.mp3">
+          src="/assets/flymetothemoon.mp3">
       </audio>
-  </footer>
   </body>
 </html>
