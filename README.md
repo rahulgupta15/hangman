@@ -1,7 +1,7 @@
 Welcome to my Hangman Game
 By: Rahul Gupta
 
-This is your typical game of Hangman where I went further in terms of the stlyling and UI to give the user realtime feedback. 
+This is your typical game of Hangman where I went further in terms of the styling and UI to give the user realtime feedback. 
 
 The theme, essentially the background image, music and typewriter styled letters arose from a trip to a speakeasy bar I visted in New Orleans. 
 
