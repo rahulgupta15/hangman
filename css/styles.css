@@ -1,13 +1,13 @@
 @font-face {
   font-family: myFirstFont;
-  src: url(/assets/budmo/budmo\ jiggler.ttf);
+  src: url(./assets/budmo/budmo\ jiggler.ttf);
 }
 
 html {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url(/assets/bar.png);
+  background-image: url(./assets/bar.png);
   background-repeat: no-repeat;
   background-size: cover;
   height: 100%;
@@ -72,7 +72,7 @@ audio {
 #gallows {
   height: 200px;
   width: 75px;
-  background-image: url(/assets/hangman.png);
+  background-image: url(./assets/hangman.png);
   margin-top: -10px;
 }
 
