@@ -1,6 +1,6 @@
 @font-face {
   font-family: myFirstFont;
-  src: url(./assets/budmo/budmo\ jiggler.ttf);
+  src: url(./assets/budmo/budmo\jiggler.ttf);
 }
 
 html {
@@ -11,7 +11,8 @@ html {
   background-repeat: no-repeat;
   background-size: cover;
   height: 100%;
-  width: 100;}
+  width: 100;
+}
 
 body {
   display: flex;
